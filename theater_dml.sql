@@ -5,18 +5,49 @@ VALUES
     ('Spider-Man: Across The Spiderverse'),
     ('Barbie');
 
-INSERT INTO tickets (movie_name, seat_num, auditorium_num)
-VALUES
-    ('Oppenheimer', 1, 1),
-    ('Old Boy', 2, 2),
-    ('Barbie', 3, 3);
-INSERT INTO tickets (movie_name, seat_num, auditorium_num)
-VALUES
-    ('Spider-Man: Across The Spiderverse', 1, 10);
+INSERT INTO tickets (
+    movie_name, 
+    seat_num, 
+    auditorium_num
+)VALUES(
+    'Oppenheimer', 
+    1, 
+    1
+),(
+    'Old Boy',
+    2,
+    2
+),(
+    'Barbie', 
+    3, 
+    3
+);
+INSERT INTO tickets (
+    movie_name, seat_num, 
+    auditorium_num
+)VALUES(
+    'Spider-Man: Across The Spiderverse', 
+    1, 
+    10
+);
 
 
-INSERT INTO customer (customer_id, ticket_num)
-VALUES (1,1), (2,2), (3,3), (4,4);
+INSERT INTO customer (
+    customer_id, 
+    ticket_num
+)VALUES (
+    1,
+    1
+),(
+    2,
+    2
+),(
+    3,
+    3
+),(
+    4,
+    4
+);
 
 UPDATE tickets
 SET customer_id = 1
