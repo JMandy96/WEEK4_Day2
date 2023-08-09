@@ -86,3 +86,6 @@ INSERT INTO concessions(
 
 select *
 FROM concessions
+
+SELECT * 
+FROM movies
