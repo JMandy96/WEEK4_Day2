@@ -49,6 +49,22 @@ INSERT INTO customer (
     4
 );
 
+UPDATE customer 
+SET ticket_num = 1
+WHERE customer_id = 1;
+
+UPDATE customer 
+SET ticket_num = 2
+WHERE customer_id = 2;
+
+UPDATE customer 
+SET ticket_num = 3
+WHERE customer_id = 3;
+
+UPDATE customer 
+SET ticket_num = 4
+WHERE customer_id = 4;
+
 UPDATE tickets
 SET customer_id = 1
 WHERE ticket_num = 1;
